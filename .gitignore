@@ -5,3 +5,5 @@ terraform.tfvars
 crash.log
 *.swp
 .terraform.lock.hcl
+# OS
+.DS_Store
