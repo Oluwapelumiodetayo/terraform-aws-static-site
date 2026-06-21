@@ -3,7 +3,6 @@
 *.tfstate.*
 terraform.tfvars
 crash.log
-*.swp
+*.log
+.env
 .terraform.lock.hcl
-# OS
-.DS_Store
