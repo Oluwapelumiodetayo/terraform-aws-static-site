@@ -1,5 +1,18 @@
 # Terraform AWS Static Site (Astro Blog Deployment)
 
+## Compatibility
+
+This repository is fully compatible with both Terraform (>= 1.6) and OpenTofu (>= 1.9).
+
+The same infrastructure code produces identical results across both tools.
+
+Verified behavior:
+- `terraform plan` → No changes
+- `tofu plan` → No changes
+
+Both tools use the same AWS provider configuration and state backend, making them interchangeable for this project.
+
+
 ## Overview
 This project is a production-style Infrastructure as Code (IaC) deployment of a static Astro blog using Terraform on AWS.
 
