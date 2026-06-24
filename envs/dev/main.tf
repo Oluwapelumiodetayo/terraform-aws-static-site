@@ -27,7 +27,3 @@ module "distribution" {
     aws.use1 = aws.use1
   }
 }
-
-resource "aws_s3_bucket" "bad" {
-  bucket = var.does_not_exist
-}
