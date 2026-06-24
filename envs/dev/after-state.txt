@@ -1,0 +1,15 @@
+cloudfront_url = "db488bhm14vjm.cloudfront.net"
+lock_test = "trigger-lock"
+route53_nameservers = tolist([
+  "ns-1296.awsdns-34.org",
+  "ns-1808.awsdns-34.co.uk",
+  "ns-86.awsdns-10.com",
+  "ns-979.awsdns-58.net",
+])
+s3_bucket_name = "my-terraform-site-2026-oluwapelumi"
+site_url = "https://tech-projects.xyz"
+[33m╷[0m[0m
+[33m│[0m [0m[1m[33mWarning: [0m[0m[1mDeprecated Parameter[0m
+[33m│[0m [0m
+[33m│[0m [0m[0mThe parameter "dynamodb_table" is deprecated. Use parameter "use_lockfile" instead.
+[33m╵[0m[0m

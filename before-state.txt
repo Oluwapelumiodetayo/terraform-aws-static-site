@@ -1,0 +1,14 @@
+cloudfront_url = "d2e09s3xe698mj.cloudfront.net"
+route53_nameservers = tolist([
+  "ns-1493.awsdns-58.org",
+  "ns-1707.awsdns-21.co.uk",
+  "ns-6.awsdns-00.com",
+  "ns-763.awsdns-31.net",
+])
+s3_bucket_name = "my-terraform-site-2026-oluwapelumi"
+site_url = "https://tech-projects.xyz"
+[33m╷[0m[0m
+[33m│[0m [0m[1m[33mWarning: [0m[0m[1mDeprecated Parameter[0m
+[33m│[0m [0m
+[33m│[0m [0m[0mThe parameter "dynamodb_table" is deprecated. Use parameter "use_lockfile" instead.
+[33m╵[0m[0m

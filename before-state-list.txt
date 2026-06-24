@@ -1,0 +1,13 @@
+aws_route53_zone.main
+random_id.suffix
+module.distribution.aws_acm_certificate.this
+module.distribution.aws_acm_certificate_validation.this
+module.distribution.aws_cloudfront_distribution.cdn
+module.distribution.aws_route53_record.apex
+module.distribution.aws_route53_record.cert_validation["tech-projects.xyz"]
+module.distribution.aws_route53_record.cert_validation["www.tech-projects.xyz"]
+module.distribution.aws_route53_record.www
+module.site.aws_s3_bucket.this
+module.site.aws_s3_bucket_policy.this
+module.site.aws_s3_bucket_public_access_block.this
+module.site.aws_s3_bucket_website_configuration.this
