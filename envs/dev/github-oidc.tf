@@ -7,6 +7,7 @@ resource "aws_iam_openid_connect_provider" "github" {
 variable "github_repo" {
   description = "owner/repo"
   type        = string
+  default     = "Oluwapelumiodetayo/terraform-aws-static-site"
 }
 
 resource "aws_iam_role" "github_actions" {
